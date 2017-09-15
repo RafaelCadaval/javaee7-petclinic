@@ -1,1 +1,1 @@
-web: ./wildfly/bin/standalone.sh
+web: ./wildfly/bin/standalone.sh && wildfly:deploy
