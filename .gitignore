@@ -4,7 +4,6 @@ target/
 .classpath
 .project
 .settings
-bin
 derby.log
 sun-appserv-samples
 org.woehlke.jee6.petclinic.entities.Owner
