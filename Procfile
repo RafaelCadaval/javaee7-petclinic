@@ -1,1 +1,1 @@
-web: mvn install && cd ./wildfly && ./standalone.sh
+web: ./wildfly/bin/standalone.sh
