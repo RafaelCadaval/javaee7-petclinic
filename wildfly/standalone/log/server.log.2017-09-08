@@ -1,0 +1,257 @@
+2017-09-08 20:10:24,811 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2017-09-08 20:10:25,454 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2017-09-08 20:10:25,548 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2017-09-08 20:10:25,554 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/rafaelcadaval/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/mr/hxx4z96s09z9dxznp_n2l30w0000gn/T/
+	java.library.path = /Users/rafaelcadaval/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final
+	jboss.host.name = cadaval
+	jboss.modules.dir = /Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = cadaval
+	jboss.qualified.host.name = cadaval.local
+	jboss.server.base.dir = /Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/standalone
+	jboss.server.config.dir = /Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/standalone/configuration
+	jboss.server.data.dir = /Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/standalone/data
+	jboss.server.deploy.dir = /Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/standalone/data/content
+	jboss.server.log.dir = /Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/standalone/log
+	jboss.server.name = cadaval
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/standalone/configuration/logging.properties
+	module.path = /Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/modules
+	org.jboss.boot.log.file = /Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.12.6
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/jboss-modules.jar -mp /Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final -Djboss.server.base.dir=/Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.country.format = BR
+	user.dir = /Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/bin
+	user.home = /Users/rafaelcadaval
+	user.language = en
+	user.name = rafaelcadaval
+	user.timezone = America/Sao_Paulo
+2017-09-08 20:10:25,555 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/standalone/configuration/logging.properties 
+2017-09-08 20:10:27,007 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2017-09-08 20:10:27,036 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.3.0.Final
+2017-09-08 20:10:27,065 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.3.0.Final
+2017-09-08 20:10:27,150 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2017-09-08 20:10:27,151 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2017-09-08 20:10:27,162 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2017-09-08 20:10:27,171 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013170: Current PicketBox version=4.0.21.Final
+2017-09-08 20:10:27,194 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2017-09-08 20:10:27,201 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2017-09-08 20:10:27,215 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2017-09-08 20:10:27,294 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2017-09-08 20:10:27,298 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017502: Undertow 1.1.0.Final starting
+2017-09-08 20:10:27,298 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2017-09-08 20:10:27,325 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2017-09-08 20:10:27,343 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-09-08 20:10:27,347 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010417: Started Driver service with driver-name = h2
+2017-09-08 20:10:27,438 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+2017-09-08 20:10:27,440 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2017-09-08 20:10:27,511 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.6.Final
+2017-09-08 20:10:27,600 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path /Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/welcome-content
+2017-09-08 20:10:27,776 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017525: Started server default-server.
+2017-09-08 20:10:27,794 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017531: Host default-host starting
+2017-09-08 20:10:27,962 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017519: Undertow HTTP listener default listening on /127.0.0.1:8080
+2017-09-08 20:10:28,208 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2017-09-08 20:10:28,220 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) JBAS015012: Started FileSystemDeploymentService for directory /Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/standalone/deployments
+2017-09-08 20:10:28,574 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2017-09-08 20:10:28,629 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2017-09-08 20:10:28,630 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2017-09-08 20:10:28,631 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 4169ms - Started 184 of 234 services (82 services are lazy, passive or on-demand)
+2017-09-08 20:16:19,188 INFO  [org.jboss.as.repository] (management-handler-thread - 1) JBAS014900: Content added at location /Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/standalone/data/content/80/bf39134ff542f013353691efe842eec8ac4fa4/content
+2017-09-08 20:16:19,225 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "javaee7-petclinic-1.3-SNAPSHOT.war" (runtime-name: "javaee7-petclinic-1.3-SNAPSHOT.war")
+2017-09-08 20:16:20,688 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) JBAS011401: Read persistence.xml for javaee7petclinic
+2017-09-08 20:16:20,875 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 51) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'javaee7-petclinic-1.3-SNAPSHOT.war#javaee7petclinic'
+2017-09-08 20:16:20,888 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 51) HHH000204: Processing PersistenceUnitInfo [
+	name: javaee7petclinic
+	...]
+2017-09-08 20:16:21,163 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 51) HHH000412: Hibernate Core {4.3.7.Final}
+2017-09-08 20:16:21,167 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 51) HHH000206: hibernate.properties not found
+2017-09-08 20:16:21,169 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 51) HHH000021: Bytecode provider name : javassist
+2017-09-08 20:16:21,632 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016002: Processing weld deployment javaee7-petclinic-1.3-SNAPSHOT.war
+2017-09-08 20:16:21,738 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.1.3.Final
+2017-09-08 20:16:21,870 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named VetWebservice in deployment unit deployment "javaee7-petclinic-1.3-SNAPSHOT.war" are as follows:
+
+	java:global/javaee7-petclinic-1.3-SNAPSHOT/VetWebservice!org.woehlke.javaee7.petclinic.services.VetWebservice
+	java:app/javaee7-petclinic-1.3-SNAPSHOT/VetWebservice!org.woehlke.javaee7.petclinic.services.VetWebservice
+	java:module/VetWebservice!org.woehlke.javaee7.petclinic.services.VetWebservice
+	java:global/javaee7-petclinic-1.3-SNAPSHOT/VetWebservice
+	java:app/javaee7-petclinic-1.3-SNAPSHOT/VetWebservice
+	java:module/VetWebservice
+
+2017-09-08 20:16:21,871 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named SpecialtyDaoImpl in deployment unit deployment "javaee7-petclinic-1.3-SNAPSHOT.war" are as follows:
+
+	java:global/javaee7-petclinic-1.3-SNAPSHOT/SpecialtyDaoImpl!org.woehlke.javaee7.petclinic.dao.SpecialtyDao
+	java:app/javaee7-petclinic-1.3-SNAPSHOT/SpecialtyDaoImpl!org.woehlke.javaee7.petclinic.dao.SpecialtyDao
+	java:module/SpecialtyDaoImpl!org.woehlke.javaee7.petclinic.dao.SpecialtyDao
+	java:global/javaee7-petclinic-1.3-SNAPSHOT/SpecialtyDaoImpl
+	java:app/javaee7-petclinic-1.3-SNAPSHOT/SpecialtyDaoImpl
+	java:module/SpecialtyDaoImpl
+
+2017-09-08 20:16:21,871 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named PetTypeDaoImpl in deployment unit deployment "javaee7-petclinic-1.3-SNAPSHOT.war" are as follows:
+
+	java:global/javaee7-petclinic-1.3-SNAPSHOT/PetTypeDaoImpl!org.woehlke.javaee7.petclinic.dao.PetTypeDao
+	java:app/javaee7-petclinic-1.3-SNAPSHOT/PetTypeDaoImpl!org.woehlke.javaee7.petclinic.dao.PetTypeDao
+	java:module/PetTypeDaoImpl!org.woehlke.javaee7.petclinic.dao.PetTypeDao
+	java:global/javaee7-petclinic-1.3-SNAPSHOT/PetTypeDaoImpl
+	java:app/javaee7-petclinic-1.3-SNAPSHOT/PetTypeDaoImpl
+	java:module/PetTypeDaoImpl
+
+2017-09-08 20:16:21,872 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named VetDaoImpl in deployment unit deployment "javaee7-petclinic-1.3-SNAPSHOT.war" are as follows:
+
+	java:global/javaee7-petclinic-1.3-SNAPSHOT/VetDaoImpl!org.woehlke.javaee7.petclinic.dao.VetDao
+	java:app/javaee7-petclinic-1.3-SNAPSHOT/VetDaoImpl!org.woehlke.javaee7.petclinic.dao.VetDao
+	java:module/VetDaoImpl!org.woehlke.javaee7.petclinic.dao.VetDao
+	java:global/javaee7-petclinic-1.3-SNAPSHOT/VetDaoImpl
+	java:app/javaee7-petclinic-1.3-SNAPSHOT/VetDaoImpl
+	java:module/VetDaoImpl
+
+2017-09-08 20:16:21,872 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named OwnerServiceImpl in deployment unit deployment "javaee7-petclinic-1.3-SNAPSHOT.war" are as follows:
+
+	java:global/javaee7-petclinic-1.3-SNAPSHOT/OwnerServiceImpl!org.woehlke.javaee7.petclinic.services.OwnerService
+	java:app/javaee7-petclinic-1.3-SNAPSHOT/OwnerServiceImpl!org.woehlke.javaee7.petclinic.services.OwnerService
+	java:module/OwnerServiceImpl!org.woehlke.javaee7.petclinic.services.OwnerService
+	java:global/javaee7-petclinic-1.3-SNAPSHOT/OwnerServiceImpl
+	java:app/javaee7-petclinic-1.3-SNAPSHOT/OwnerServiceImpl
+	java:module/OwnerServiceImpl
+
+2017-09-08 20:16:21,872 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named VisitDaoImpl in deployment unit deployment "javaee7-petclinic-1.3-SNAPSHOT.war" are as follows:
+
+	java:global/javaee7-petclinic-1.3-SNAPSHOT/VisitDaoImpl!org.woehlke.javaee7.petclinic.dao.VisitDao
+	java:app/javaee7-petclinic-1.3-SNAPSHOT/VisitDaoImpl!org.woehlke.javaee7.petclinic.dao.VisitDao
+	java:module/VisitDaoImpl!org.woehlke.javaee7.petclinic.dao.VisitDao
+	java:global/javaee7-petclinic-1.3-SNAPSHOT/VisitDaoImpl
+	java:app/javaee7-petclinic-1.3-SNAPSHOT/VisitDaoImpl
+	java:module/VisitDaoImpl
+
+2017-09-08 20:16:21,873 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named PetDaoImpl in deployment unit deployment "javaee7-petclinic-1.3-SNAPSHOT.war" are as follows:
+
+	java:global/javaee7-petclinic-1.3-SNAPSHOT/PetDaoImpl!org.woehlke.javaee7.petclinic.dao.PetDao
+	java:app/javaee7-petclinic-1.3-SNAPSHOT/PetDaoImpl!org.woehlke.javaee7.petclinic.dao.PetDao
+	java:module/PetDaoImpl!org.woehlke.javaee7.petclinic.dao.PetDao
+	java:global/javaee7-petclinic-1.3-SNAPSHOT/PetDaoImpl
+	java:app/javaee7-petclinic-1.3-SNAPSHOT/PetDaoImpl
+	java:module/PetDaoImpl
+
+2017-09-08 20:16:21,873 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named OwnerDaoImpl in deployment unit deployment "javaee7-petclinic-1.3-SNAPSHOT.war" are as follows:
+
+	java:global/javaee7-petclinic-1.3-SNAPSHOT/OwnerDaoImpl!org.woehlke.javaee7.petclinic.dao.OwnerDao
+	java:app/javaee7-petclinic-1.3-SNAPSHOT/OwnerDaoImpl!org.woehlke.javaee7.petclinic.dao.OwnerDao
+	java:module/OwnerDaoImpl!org.woehlke.javaee7.petclinic.dao.OwnerDao
+	java:global/javaee7-petclinic-1.3-SNAPSHOT/OwnerDaoImpl
+	java:app/javaee7-petclinic-1.3-SNAPSHOT/OwnerDaoImpl
+	java:module/OwnerDaoImpl
+
+2017-09-08 20:16:22,819 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016005: Starting Services for CDI deployment: javaee7-petclinic-1.3-SNAPSHOT.war
+2017-09-08 20:16:22,918 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 2.2.6 (Final)
+2017-09-08 20:16:22,985 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016008: Starting weld service for deployment javaee7-petclinic-1.3-SNAPSHOT.war
+2017-09-08 20:16:23,237 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 51) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'javaee7-petclinic-1.3-SNAPSHOT.war#javaee7petclinic'
+2017-09-08 20:16:23,344 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 51) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2017-09-08 20:16:23,585 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 51) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-09-08 20:16:23,595 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 51) HHH000431: Unable to determine H2 database version, certain features may not work
+2017-09-08 20:16:23,782 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 51) HHH000397: Using ASTQueryTranslatorFactory
+2017-09-08 20:16:23,982 INFO  [org.hibernate.search.Version] (ServerService Thread Pool -- 51) HSEARCH000034: Hibernate Search 4.5.0.Final
+2017-09-08 20:16:24,305 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 51) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2017-09-08 20:16:24,309 WARN  [org.hibernate.search.impl.ConfigContext] (ServerService Thread Pool -- 51) HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified, using LUCENE_CURRENT.
+2017-09-08 20:16:24,385 INFO  [org.hibernate.search.store.impl.DirectoryProviderHelper] (ServerService Thread Pool -- 51) HSEARCH000041: Index directory not found, creating: '/Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/bin/./org.woehlke.javaee7.petclinic.entities.Owner'
+2017-09-08 20:16:24,520 INFO  [org.hibernate.search.store.impl.DirectoryProviderHelper] (ServerService Thread Pool -- 51) HSEARCH000041: Index directory not found, creating: '/Users/rafaelcadaval/Downloads/wildfly-8.2.0.Final/bin/./org.woehlke.javaee7.petclinic.entities.Vet'
+2017-09-08 20:16:24,544 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 51) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-09-08 20:16:24,545 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 51) HHH000431: Unable to determine H2 database version, certain features may not work
+2017-09-08 20:16:24,553 WARN  [org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase] (ServerService Thread Pool -- 51) Unable to execute JPA schema generation drop command [alter table pets drop constraint FK_hiremaxooqscpn6c1kw3tvsia if exists]
+2017-09-08 20:16:24,553 WARN  [org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase] (ServerService Thread Pool -- 51) Unable to execute JPA schema generation drop command [alter table pets drop constraint FK_5avf7qbbcwdrfspmfktmmv197 if exists]
+2017-09-08 20:16:24,554 WARN  [org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase] (ServerService Thread Pool -- 51) Unable to execute JPA schema generation drop command [alter table vet_specialties drop constraint FK_f4qd88flit0kftbmmjlxageng if exists]
+2017-09-08 20:16:24,554 WARN  [org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase] (ServerService Thread Pool -- 51) Unable to execute JPA schema generation drop command [alter table vet_specialties drop constraint FK_ec5j1tlc75pkq99vvfgf8qtmn if exists]
+2017-09-08 20:16:24,554 WARN  [org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase] (ServerService Thread Pool -- 51) Unable to execute JPA schema generation drop command [alter table visits drop constraint FK_8qmy9owedmbinuh0npataahkm if exists]
+2017-09-08 20:16:24,556 WARN  [org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase] (ServerService Thread Pool -- 51) Unable to execute JPA schema generation drop command [drop sequence hibernate_sequence]
+2017-09-08 20:16:25,438 INFO  [org.richfaces.log.Webapp] (MSC service thread 1-5) Auto-registered servlet ResourceServlet with mapping '/org.richfaces.resources/*'
+2017-09-08 20:16:25,490 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-5) Initializing Mojarra 2.2.8-jbossorg-1 20140822-1131 for context '/javaee7-petclinic-1.3-SNAPSHOT'
+2017-09-08 20:16:28,252 INFO  [org.richfaces.log.Cache] (MSC service thread 1-5) Selected fallback cache factory
+2017-09-08 20:16:28,254 INFO  [org.richfaces.log.Cache] (MSC service thread 1-5) Creating LRUMap cache instance using parameters: {org.jboss.weld.context.ignore.forward=false, resteasy.injector.factory=org.jboss.resteasy.cdi.CdiInjectorFactory, org.jboss.weld.context.ignore.include=false, resteasy.scanned.jndi.resources=java:app/javaee7-petclinic-1.3-SNAPSHOT/VetWebservice;org.woehlke.javaee7.petclinic.services.VetWebservice;true, resteasy.unwrapped.exceptions=javax.ejb.EJBException, org.jboss.jbossfaces.IS_CDI=true}
+2017-09-08 20:16:28,261 INFO  [org.richfaces.log.Cache] (MSC service thread 1-5) Creating LRUMap cache instance of 512 items capacity
+2017-09-08 20:16:28,270 INFO  [org.richfaces.log.Application] (MSC service thread 1-5) RichFaces Core by JBoss by Red Hat, version 4.5.17.Final
+2017-09-08 20:16:28,310 WARNING [org.richfaces.log.Application] (MSC service thread 1-5) JMS API was found on the classpath; if you want to enable RichFaces Push JMS integration, set context-param 'org.richfaces.push.jms.enabled' in web.xml
+2017-09-08 20:16:28,629 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-5) Deploying javax.ws.rs.core.Application: class org.woehlke.javaee7.petclinic.services.JaxRsActivator
+2017-09-08 20:16:28,662 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017534: Registered web context: /javaee7-petclinic-1.3-SNAPSHOT
+2017-09-08 20:16:28,735 INFO  [org.jboss.as.server] (management-handler-thread - 1) JBAS018559: Deployed "javaee7-petclinic-1.3-SNAPSHOT.war" (runtime-name : "javaee7-petclinic-1.3-SNAPSHOT.war")
+2017-09-08 20:19:18,673 WARNING [org.richfaces.log.Components] (default task-26) Datascroller petTypesForm:scroller: The requested page #0 isn't found in the model containing 1 pages. Paging is reset to page #1
+2017-09-08 20:19:27,458 INFO  [org.woehlke.javaee7.petclinic.dao.PetTypeDaoImpl] (default task-30) addNewPetType: PetType{id=null, name='cat'}
+2017-09-08 20:19:27,531 WARNING [org.richfaces.log.Components] (default task-30) Datascroller petTypesForm:scroller: The requested page #0 isn't found in the model containing 1 pages. Paging is reset to page #1
+2017-09-08 20:19:32,288 INFO  [org.woehlke.javaee7.petclinic.dao.PetTypeDaoImpl] (default task-32) addNewPetType: PetType{id=null, name='dog'}
+2017-09-08 20:19:32,317 WARNING [org.richfaces.log.Components] (default task-32) Datascroller petTypesForm:scroller: The requested page #0 isn't found in the model containing 1 pages. Paging is reset to page #1
+2017-09-08 20:20:09,303 INFO  [org.woehlke.javaee7.petclinic.dao.PetTypeDaoImpl] (default task-34) addNewPetType: PetType{id=null, name='bird'}
+2017-09-08 20:20:09,329 WARNING [org.richfaces.log.Components] (default task-34) Datascroller petTypesForm:scroller: The requested page #0 isn't found in the model containing 1 pages. Paging is reset to page #1
+2017-09-08 20:20:20,178 WARNING [org.richfaces.log.Components] (default task-36) Datascroller specialtiesForm:scroller: The requested page #0 isn't found in the model containing 1 pages. Paging is reset to page #1
+2017-09-08 20:20:35,481 WARNING [org.richfaces.log.Components] (default task-53) Datascroller petTypesForm:scroller: The requested page #0 isn't found in the model containing 1 pages. Paging is reset to page #1
+2017-09-08 20:20:36,091 WARNING [org.richfaces.log.Components] (default task-54) Datascroller specialtiesForm:scroller: The requested page #0 isn't found in the model containing 1 pages. Paging is reset to page #1
+2017-09-08 20:20:59,736 INFO  [org.woehlke.javaee7.petclinic.dao.SpecialtyDaoImpl] (default task-56) addNewSpecialty: Specialty{id=null, name='dentist'}
+2017-09-08 20:20:59,759 WARNING [org.richfaces.log.Components] (default task-56) Datascroller specialtiesForm:scroller: The requested page #0 isn't found in the model containing 1 pages. Paging is reset to page #1
+2017-09-08 20:21:24,865 INFO  [org.woehlke.javaee7.petclinic.dao.VetDaoImpl] (default task-59) addNewVet: Vet{id=null, firstName='Rafael', lastName='Cadaval', specialties=[Specialty{id=4, name='dentist'}]}
+2017-09-08 20:22:27,367 WARNING [org.richfaces.log.Components] (default task-60) Datascroller specialtiesForm:scroller: The requested page #0 isn't found in the model containing 1 pages. Paging is reset to page #1
+2017-09-08 20:22:55,489 INFO  [org.woehlke.javaee7.petclinic.dao.SpecialtyDaoImpl] (default task-62) addNewSpecialty: Specialty{id=null, name='surgeon'}
+2017-09-08 20:22:55,510 WARNING [org.richfaces.log.Components] (default task-62) Datascroller specialtiesForm:scroller: The requested page #0 isn't found in the model containing 1 pages. Paging is reset to page #1
+2017-09-08 20:24:02,180 INFO  [org.woehlke.javaee7.petclinic.dao.SpecialtyDaoImpl] (default task-64) addNewSpecialty: Specialty{id=null, name='anesthetist'}
+2017-09-08 20:24:02,213 WARNING [org.richfaces.log.Components] (default task-64) Datascroller specialtiesForm:scroller: The requested page #0 isn't found in the model containing 1 pages. Paging is reset to page #1
